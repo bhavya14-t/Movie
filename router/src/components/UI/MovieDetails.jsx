@@ -1,4 +1,4 @@
-import { NavLink, useLoaderData } from "react-router-dom";
+import {NavLink, useLoaderData} from "react-router-dom";
 import "../UI/Card.css";
 
 export const MovieDetails = () => {
