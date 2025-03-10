@@ -3,7 +3,7 @@ import {Footer} from "./Footer"
 import {Outlet, useNavigation} from "react-router-dom";
 import {Loading} from "./Loading";
 
-const AppLayout = () => {
+export const AppLayout = () => {
     const navigation = useNavigation();
     console.log(navigation);
 
@@ -18,5 +18,3 @@ const AppLayout = () => {
         </>
     );
 };
-
-export default AppLayout;

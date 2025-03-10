@@ -71,7 +71,7 @@ export const Contact = () => {
             <div className="contact-image">
               <figure>
                 <img
-                  src="/image/contact.png"
+                  src="/images/contact.png"
                   alt="contact pic"
                   className="contact_image"
                 />
